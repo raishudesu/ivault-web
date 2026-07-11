@@ -119,11 +119,7 @@ function App() {
       <main id="top">
         {/* Hero */}
         <section className="relative overflow-hidden border-b border-border">
-          <div
-            className="halftone halftone-fade-radial absolute -top-24 right-[-8rem] h-[28rem] w-[28rem]"
-            aria-hidden="true"
-          />
-          <div className="relative mx-auto max-w-[42rem] px-4 pt-32 pb-20 text-center sm:px-6 sm:pt-40 sm:pb-28">
+          <div className="relative mx-auto max-w-[42rem] px-4 pt-32 pb-4 text-center sm:px-6 sm:pt-40">
             <img
               src={icon}
               alt="IVault app icon"
@@ -196,6 +192,29 @@ function App() {
                 </span>
               ))}
             </div>
+          </div>
+
+          <div className="relative mx-auto flex h-[280px] max-w-[40rem] items-center justify-center sm:h-[380px]">
+            <div
+              className="halftone halftone-fade-radial absolute inset-0 -z-10"
+              aria-hidden="true"
+            />
+            <img
+              src="/mockups/mockup-2.png"
+              alt="IVault review and save screen, showing a scanned ID's front and back"
+              width={640}
+              height={800}
+              className="animate-float absolute w-[150px] -translate-x-[85px] rotate-[-6deg] drop-shadow-[0_25px_30px_rgb(0_0_0_/_0.25)] sm:w-[210px] sm:-translate-x-[120px] dark:drop-shadow-[0_25px_30px_rgb(0_0_0_/_0.5)]"
+              style={{ animationDelay: "0.3s" }}
+            />
+            <img
+              src="/mockups/mockup-1.png"
+              alt="IVault home screen with a grid of saved digital IDs and documents"
+              width={640}
+              height={800}
+              className="animate-float relative w-[170px] translate-x-[60px] rotate-[4deg] drop-shadow-[0_25px_30px_rgb(0_0_0_/_0.25)] sm:w-[230px] sm:translate-x-[85px] dark:drop-shadow-[0_25px_30px_rgb(0_0_0_/_0.5)]"
+              style={{ animationDelay: "0s" }}
+            />
           </div>
 
           <div className="relative mx-auto grid max-w-[56rem] grid-cols-4 divide-x divide-border border-t border-border">
