@@ -66,7 +66,7 @@ const TECH_STACK = [
   { label: "UI", value: "React Native 0.81, Reanimated 4, Gesture Handler 2" },
   { label: "Navigation", value: "Expo Router (file-based)" },
   { label: "Database", value: "SQLite via expo-sqlite + Drizzle ORM" },
-  { label: "Fonts", value: "JetBrains Mono" },
+  { label: "Fonts", value: "Geist & Geist Mono" },
   { label: "Language", value: "TypeScript, strict mode" },
 ];
 
